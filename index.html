@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text editor</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sub1">
+            <button onclick="b()">Bold</button>
+            <button onclick="i()">italic</button>
+            <button onclick="unlne()">underline</button>
+            <button onclick="upper()">upper case</button>
+            <button onclick="lower()">Lower case</button>
+            <button onclick="alignCenter()">align center</button>
+            <button onclick="alignEnd()">align End</button>
+            <button onclick="alignStart()">align start</button>
+            <input type="text" id="ff" placeholder="Enter font name"><button onclick="font()">Font Family</button>
+            <div class="bg">
+                <div  id='red' onclick="red()"></div>
+                <div  id='green'onclick="green()"></div>
+                <div  id='blue' onclick="blue()"></div>
+                <div   id='pink' onclick="pink()"></div>
+                <div  id='yellow' onclick="yellow()"></div>
+                <div  id='skyblue' onclick="skyblue()"></div>
+            </div>
+            
+        </div>
+        <div class="body">
+            <textarea name="" id="txt" cols="50" rows="20" placeholder="Enter Text.."></textarea><br>
+            <button onclick="clr()">Clear</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

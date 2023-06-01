@@ -1,0 +1,92 @@
+    body {
+        background-color: whitesmoke;
+    }
+
+    .container {
+        border: 1px solid black;
+        width: 100%;
+        height: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-style: none;
+
+    }
+
+    .sub1 {
+        border: 1px solid black;
+        height: 120px;
+        width: 50%;
+        margin-left: 230px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: whitesmoke;
+
+    }
+
+    .body {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    textarea {
+        border-radius: 10px;
+    }
+
+    .bg {
+        border: 1px solid black;
+        width: 46%;
+        height: 40px;
+        display: flex;
+        margin-left: 130px;
+        margin-top: 5px;
+        /* border-style: none; */
+    }
+
+    #red {
+        height: 40px;
+        width: 40px;
+        background-color: red;
+    }
+
+    #blue {
+        height: 40px;
+        width: 40px;
+        background-color: blue;
+    }
+
+    #green {
+        height: 40px;
+        width: 40px;
+        background-color: lightgreen;
+    }
+
+    #pink {
+        height: 40px;
+        width: 40px;
+        background-color: pink;
+    }
+
+    #yellow {
+        height: 40px;
+        width: 40px;
+        background-color: yellow;
+    }
+
+    #skyblue {
+        height: 40px;
+        width: 40px;
+        background-color: skyblue;
+    }
+
+    button {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+
+    input {
+        border-radius: 10px;
+    }
